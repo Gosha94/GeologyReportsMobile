@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TeligentMobile</string>
+
+    <string name="logo_text">Захват картинки с камеры</string>
+    <string name="capture_image_button_text">Получить картинку с камеры</string>
+    <string name="display_image_button_text">Показать картинку</string>
+
+    <string name="toast_image_saved">Image Saved Successfully</string>
+    <string name="title_activity_offline_map">OfflineMapActivity</string>
+</resources>
