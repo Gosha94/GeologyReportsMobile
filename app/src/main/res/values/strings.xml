@@ -4,6 +4,10 @@
     <string name="logo_text">Захват картинки с камеры</string>
     <string name="capture_image_button_text">Получить картинку с камеры</string>
     <string name="display_image_button_text">Показать картинку</string>
+    <string name="display_image_alt_text">Изображение с камеры</string>
+
+    <string name="move_to_second_page_text">На вторую страницу</string>
+    <string name="move_to_main_page_text">На главную</string>
 
     <string name="toast_image_saved">Image Saved Successfully</string>
     <string name="title_activity_offline_map">OfflineMapActivity</string>

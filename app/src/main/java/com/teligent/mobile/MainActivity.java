@@ -146,8 +146,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayImage(View view)
     {
-        Intent intent = new Intent(this,DisplayImage.class);
+        Intent intent = new Intent(this, DisplayImage.class);
         intent.putExtra("image_path", _currentImagePath);
+        startActivity(intent);
+    }
+
+    public void goToSecondPage(View view)
+    {
+        Intent intent = new Intent(this, SecondTestActivity.class);
         startActivity(intent);
     }
 
