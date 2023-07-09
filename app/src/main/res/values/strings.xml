@@ -5,6 +5,7 @@
     <string name="capture_image_button_text">Получить картинку с камеры</string>
     <string name="display_image_button_text">Показать картинку</string>
     <string name="display_image_alt_text">Изображение с камеры</string>
+    <string name="open_offline_map_text">Открыть оффлайн карту</string>
 
     <string name="move_to_second_page_text">На вторую страницу</string>
     <string name="move_to_main_page_text">На главную</string>

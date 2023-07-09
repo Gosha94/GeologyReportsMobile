@@ -19,28 +19,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeligentMobile.Light"
         tools:targetApi="31">
+
         <activity
-            android:name=".SecondTestActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OfflineMapActivity"
-            android:exported="false"
-            android:label="@string/title_activity_offline_map" />
-        <activity
-            android:name=".DisplayImage"
-            android:exported="false" />
-        <activity
-            android:name=".MainBottomMenu"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity"
+            android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".SecondTestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DisplayImage"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainBottomMenu"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
